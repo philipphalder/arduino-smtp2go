@@ -23,7 +23,6 @@ EthernetClient client;
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("-------------VERSION 1.2-------------");
   pinMode(4,OUTPUT);
   digitalWrite(4,HIGH);
   Ethernet.begin(mac, ip, gateway, gateway, subnet); 
